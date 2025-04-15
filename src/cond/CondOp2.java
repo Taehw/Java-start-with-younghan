@@ -1,4 +1,4 @@
 package cond;
 
-public class CondOp1 {
+public class CondOp2 {
 }

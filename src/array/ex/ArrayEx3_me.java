@@ -2,7 +2,7 @@ package array.ex;
 
 import java.util.Scanner;
 
-public class ArrayEx3 {
+public class ArrayEx3_me {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
