@@ -19,7 +19,7 @@ public class ProductAdminEx {
             int menuNumber = scanner.nextInt();
 
             //swtich문으로 될려나 일단 쉬운것부터
-            if (menuNumber == 1) {
+            if (menuNumber == 1) { //continue 사용을 생각해보자
                 if (productCount == 10) {
                     System.out.println("더 이상 상품을 등록할 수 없습니다.");
                 }else {

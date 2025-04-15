@@ -1,15 +1,21 @@
+//오히려 전에 정답코드랑 다르게 작성했던게 도움이 됐네
+//Ex7 -> Ex8 디벨롭하는데 몇줄이면 끝남 개이득
+
 package array.ex;
 
 import java.util.Scanner;
 
-public class ArrayEx7 {
+public class ArrayEx8 {
 
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
-        int[][] students = new int[4][3]; //변수명도 좀 신경써주자
 
-        int[] totalscores = new int[4];
+        System.out.print("학생수를 입력하세요 : ");
+        int studentCount = scanner.nextInt();
+        int[][] students = new int[studentCount][3]; //변수명도 좀 신경써주자
+
+        int[] totalscores = new int[studentCount];
         int totalscore = 0;
 
         for (int row = 0; row < students.length; row++) {

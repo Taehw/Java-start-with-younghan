@@ -17,7 +17,7 @@ public class ArrayEx3_me {
         System.out.println("출력");
 
         for (int i = 0; i < numbers.length; i++) {
-            System.out.print(numbers[numbers.length-1 - i]);
+            System.out.print(numbers[numbers.length-1 - i]); //복잡함
 
             if (i < numbers.length-1) {
                 System.out.print(", ");

@@ -5,6 +5,8 @@ import java.util.Scanner;public class ArrayEx5 {
 
         Scanner scanner = new Scanner(System.in);
 
+        //배열의 크기 동적으로 입력받기
+
         System.out.print("입력받을 숫자의 개수를 입력하세요 : ");
         int count = scanner.nextInt();
 

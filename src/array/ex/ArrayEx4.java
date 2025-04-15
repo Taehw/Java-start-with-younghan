@@ -11,6 +11,8 @@ public class ArrayEx4 {
         int[] numbers = new int[5];
         int sum = 0;
 
+        //개수가 정해져있으니까 length를 굳이 안써도 되긴함
+        // for문두개는 합치는게 낫지...정답코드 확인
         for (int i = 0; i < numbers.length; i++) {
             numbers[i] = input.nextInt();
         }

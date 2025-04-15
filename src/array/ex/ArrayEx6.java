@@ -21,7 +21,7 @@ public class ArrayEx6 {
         int min = numbers[0];
         int max = numbers[0];
 
-        for (int number : numbers) {
+        for (int number : numbers) { //int i = 0 보다 int i =1부터 하는게 시간상 이득
             if (number < min) {
                 min = number;
             }

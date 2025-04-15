@@ -6,9 +6,9 @@ import java.util.Scanner;public class ArrayEx7_younghan {
         Scanner scanner = new Scanner(System.in);
         int[][] scores = new int[4][3];
 
-        String[] subjects = {"국어", "영어", "수학"};
+        String[] subjects = {"국어", "영어", "수학"}; //과목을 배열로 넣어주기
 
-        for(int i=0; i<4; i++){
+        for(int i=0; i<4; i++){ //length 굳이 안쓰기?
 
             System.out.println((i+1) + "번 학생의 성적을 입력하세요:");
 
